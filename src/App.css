@@ -1,0 +1,101 @@
+ *{
+  text-decoration: none;
+  list-style: none;
+} 
+
+.App{
+  background-image:linear-gradient(   
+     rgb(177, 177, 236),
+    rgb(238, 158, 170),  
+   rgb(169, 144, 148) );   
+  height: 100vh;
+}
+
+ul{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(94, 41, 241);
+}
+
+.link{
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+span{
+  margin-left: 150px;
+}
+
+.link:hover{
+  color: rgb(206, 181, 181);
+}
+
+#title{
+  display: inline;
+  justify-content: space-evenly;
+  font-size: x-large;
+  font-weight: bold; 
+}
+
+.btn{
+  float:right;
+   margin-right: 50px; 
+  border-radius: 20px;
+  height: 80px;
+  width: 200px;
+  background-color: rgb(225, 234, 234);
+}
+
+#data{
+  position: relative;
+  top: -30px;
+  left: 100px;
+  display: flex;
+ justify-content: center; 
+}
+
+table{
+  border-collapse: collapse;
+  background-color: white;
+}
+ 
+th{
+  margin-left: 30px;
+  padding: 40px;
+  border: 2px solid black;
+} 
+
+td{
+  padding: 25px;
+}
+
+.form{
+  text-align: center;
+}
+
+.block{
+  display: block;
+  line-height: 30px;
+}
+
+input{
+  width: 250px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: rgb(145, 145, 252);
+  margin: 10px;
+}
+
+.clr{
+  color: blue;
+}
+
+button{
+  margin: 20px;
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: aqua;
+}
+
+
